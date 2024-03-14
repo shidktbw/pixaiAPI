@@ -2,6 +2,7 @@
 
 An unofficial API for Pixai.art for Python using request
 
+![pixai-1651286186430165996-和風？](https://github.com/shidktbw/pixaiAPI/assets/112849918/68e99857-3851-428c-952f-1f256eefacba)
 
 
 ## 💻 Installation
@@ -31,14 +32,13 @@ startGeneration = client.createGenerationTask(
 
 imageurlurl = client.getTaskById(startGeneration)
 image = client.DownloadImage(imageurlurl)
-
 ```
 
 ## ⛏️How is work (short)
 Due to the unofficial nature of the API, the approach to image generation deviates from standard methods
 
 1. Send `createGenerationTask` to initiate image generation
-2. Receive `generationId` as acknowledgment.
+2. Receive `generationId` as acknowledgment
 
 To track the progress or retrieve the generated image, use the getTaskById endpoint, passing in your generationId
 
