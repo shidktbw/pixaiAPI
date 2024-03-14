@@ -2,7 +2,7 @@
 
 ![pixai-1651286186430165996-和風？](https://github.com/shidktbw/pixaiAPI/assets/112849918/68e99857-3851-428c-952f-1f256eefacba)
 
-An unofficial API for Pixai.art for Python using request
+An *unofficial* API for Pixai.art for Python using request
 
 
 ## 💻 Installation
