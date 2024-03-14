@@ -34,7 +34,7 @@ imageurlurl = client.getTaskById(startGeneration)
 image = client.DownloadImage(imageurlurl)
 ```
 
-## ⛏️How is work (short)
+## ⛏️How is work (briefly)
 Due to the unofficial nature of the API, the approach to image generation deviates from standard methods
 
 1. Send `createGenerationTask` to initiate image generation
