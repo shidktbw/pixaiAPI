@@ -48,4 +48,5 @@ To track the progress or retrieve the generated image, use the getTaskById endpo
 Workflow Summary
 createGenerationTask -> receive generationId -> getTaskById with generationId -> receive url_to_image -> Download image from link
 
+For all generation parameters check [it](https://github.com/shidktbw/pixaiAPI/blob/main/pixai/payloads.py#L5)https://github.com/shidktbw/pixaiAPI/blob/main/pixai/payloads.py#L5
 
